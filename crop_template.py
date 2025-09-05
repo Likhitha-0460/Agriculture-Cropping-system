@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Title
-st.title("🌱 Smart Agri App")
+st.title("🌱 Farmers Resources")
 st.subheader("Your digital assistant for smart farming")
 
 # Sidebar navigation
@@ -10,7 +10,7 @@ page = st.sidebar.radio("Go to", ["Home", "Crop Suggestion", "About"])
 
 # Home Page
 if page == "Home":
-    st.write("👋 Welcome to the Smart Agri App!")
+    st.write("👋 Welcome to the Farmers Resources!")
     st.write("This app helps farmers with crop suggestions based on soil and weather data.")
 
 # Crop Suggestion Page
